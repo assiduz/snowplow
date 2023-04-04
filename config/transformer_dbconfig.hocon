@@ -1,0 +1,14 @@
+{
+  "input": {
+    "subscription": "projects/petsy-ga-bigquery/subscriptions/cd-loader-enriched-server"
+  }
+  "output": {
+    "path": "gs://databricks-loader-new/"
+  }
+  "queue": {
+    "topic": "projects/petsy-ga-bigquery/topics/topic-id-new"
+  }
+  "formats": {
+    "fileFormat": "parquet"
+  }
+}

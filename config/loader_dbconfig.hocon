@@ -1,0 +1,14 @@
+{
+  "messageQueue": {
+    "type": "pubsub"
+    "subscription": "projects/petsy-ga-bigquery/subscriptions/topic-id-new-sub"
+  },
+  "storage" : {
+    "host": "adb-491096409445031.11.azuredatabricks.net",
+    "password": "dapi7688d458a01178951fb364abc427df36",
+    "schema": "atomic",
+    "port": 443,
+    "httpPath": "sql/protocolv1/o/491096409445031/0301-092446-r98vixgf",
+    "eventsOptimizePeriod": "2 days"
+  }
+}
